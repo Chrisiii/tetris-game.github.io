@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <canvas id="canvas" width="300" height="400"></canvas>
+    <canvas id="control" width="150" height="25"></canvas>
+    <canvas id="next" width="80" height="25"></canvas>
+    <canvas id="score" width="80" height="187"></canvas>
+    <canvas id="square3" width="80" height="150"></canvas>
+    <canvas id="control1" width="150" height="150"></canvas>
+    <div class="control2">
+        <canvas id="c1" width="25" height="25"></canvas>
+        <canvas id="c2" width="25" height="25"></canvas>
+        <canvas id="c3" width="25" height="25"></canvas>
+        <canvas id="c4" width="25" height="25"></canvas>
+    </div>
+    <div class="score">
+        <p>
+            Score: <span id="scorea"></span>
+        </p>
+        <p>
+            Speed: <span id="speed"></span>
+        </p>
+    </div>
+    <div class="control">
+        <p>CONTROL</p>
+    </div>
+    <div class="nextpiece">
+        <p>NEXT</p>
+    </div>
+    <div class="tetris">
+        <h1>TETRIS</h1>
+    </div>
+    <div class="container">
+        <h1 id="gover"></h1>
+    </div>
+        <h2 id="right"> &#8594;</h2>
+        <h2 id="left"> &#8592;</h2>
+        <h2 id="up"> &#8593;</h2>
+        <h2 id="down"> &#8595;</h2>
+   <script src="tetris.js"></script>
+</body>
+</html>
